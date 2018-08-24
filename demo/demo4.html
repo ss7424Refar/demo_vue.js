@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="app">
+        name: <input v-model="name"><br>
+        password: <input v-model="password">
+    </div>
+    <script src="../js/vue.js"></script>
+    <script>
+        new Vue({
+            el: '#app',
+            data: {
+                name:'',
+                password:''
+            }
+
+        })
+
+    </script>
+</body>
+</html>
